@@ -6,4 +6,9 @@ public class Cattle extends Animal {
     public void feed() {
         this.size += 2;
     }
+
+    @Override
+    public String toString() {
+        return "cattle";
+    }
 }
